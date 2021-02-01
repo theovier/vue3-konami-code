@@ -13,7 +13,6 @@ export default {
         }
 
         function konamiCodeListener(event) {
-            console.log(event.key);
             if (event.key === KONAMI_CODE[currentPosition++]) {
                 if (currentPosition === KONAMI_CODE.length) {
                     options.onKonamiCodeEntered()
