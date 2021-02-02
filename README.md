@@ -13,6 +13,7 @@ npm install --save vue3-konami-code
 
 ```js
 import KonamiCode from "vue3-konami-code"
+
 Vue.use(KonamiCode, {
     onKonamiCodeEntered: function() {
         alert("Konami Code successfully entered!");
