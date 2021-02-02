@@ -21,8 +21,6 @@
         "konamicode"
     ],
     "scripts": {
-        "dev": "vite",
-        "build": "vite build",
         "test": "jest"
     },
     "dependencies": {},
